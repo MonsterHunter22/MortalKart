@@ -7,6 +7,7 @@ import Home from './pages/Home'
 import Products from './pages/Products'
 import ProductDetails from './pages/ProductDetails'
 import Cart from './pages/Cart'
+import ScrollToTop from './pages/ScrollToTop'
 
 
 function App() {
@@ -17,6 +18,8 @@ function App() {
       <CartProvider>
 
             <BrowserRouter>
+            
+            <ScrollToTop/>
 
                 <Navbar />
 
